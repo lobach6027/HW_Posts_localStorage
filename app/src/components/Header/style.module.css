@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: #d9d9d9;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.wrapper a {
+  border: 2px solid black;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+}
+.wrapper .active{
+    border: 2px solid orange;
+}

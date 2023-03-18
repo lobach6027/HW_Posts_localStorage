@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  margin-top: 180px;
+}
+.form {
+  border: 2px solid black;
+  max-width: 900px;
+  padding: 60px 40px;
+  margin: 50px auto;
+  display: flex;
+  gap: 35px;
+  background-color: rgb(216, 218, 219);
+  justify-content: space-between;
+}
+.author_info {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: space-between;
+}
+.author_info input {
+  padding: 10px;
+  min-width: 400px;
+  outline: none;
+  font-size: 20px;
+  border: 1px solid orange;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.form textarea {
+  resize: none;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid orange;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.button {
+  background-color: orange;
+  border: none;
+  outline: none;
+  height: 60px;
+}
